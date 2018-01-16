@@ -5,15 +5,17 @@
 ---
 
 ## Purpose
-... Add the purpose of your template here ...
+Default elint configuration for main source + test.
 
 The following files are generated:
 
 ```
 .
-└── .gitignore
+├── .eslintrc
+└── test
+    └── .eslintrc
 
-0 directories, 1 file
+1 directory, 2 files
 
 ```
 

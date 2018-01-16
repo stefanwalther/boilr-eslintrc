@@ -1,4 +1,6 @@
 .
-└── .gitignore
+├── .eslintrc
+└── test
+    └── .eslintrc
 
-0 directories, 1 file
+1 directory, 2 files

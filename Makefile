@@ -12,7 +12,7 @@ gen-readme: gen-output					## Generate README.md (using docker-verb)
 gen-output:         						## Generate the sample output
 	mkdir -p ./sample ; \
 	cd ./sample; \
-	boilr template use gitignore .; \
+	boilr template use eslintrc .; \
 	tree -a > ./../docs/boilr-output.md; \
 	cd ..; \
 	rm -rf ./sample;
@@ -22,5 +22,6 @@ gen-output:         						## Generate the sample output
 reg:														## Register the current template locally
 	boilr template save $(PWD) eslintrc -f
 .PHONY: reg
+
 
 

@@ -1,6 +1,6 @@
 .
-├── .eslintrc
+├── .eslintrc.json
 └── test
-    └── .eslintrc
+    └── .eslintrc.json
 
 1 directory, 2 files
